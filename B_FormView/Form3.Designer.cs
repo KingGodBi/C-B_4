@@ -35,6 +35,7 @@ namespace B_FormView
             // 
             // Timer
             // 
+            this.Timer.Interval = 10;
             this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
             // Form3
